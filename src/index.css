@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@custom-variant  dark (&:where(.dark, .dark *));
+
+@theme{
+    --color-primary: #F3C623;
+    --color-secondary: #B84A62;
+}
+
+
+
+@layer components{
+    .contaier1 {
+        @apply text-2xl bg-secondary px-4 py-2 font-semibold border rounded-2xl m-5 text-primary dark:bg-primary dark:text-white dark:border-green-400 hover:scale-105 duration-300
+    }
+};
