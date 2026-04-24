@@ -4,7 +4,7 @@ import Darkmode from './Darkmode'
 const Navbar = () => {
   return (
     <>
-      <div className="flex justify-between border-0 bg-[#0F828C] dark:bg-[#210F37] dark:text-white px-5">
+      <div className="flex justify-between border-0 bg-[#477998] dark:bg-[#210F37] dark:text-white px-5">
         <div className='flex text-2xl dark:text-white py-3 font-semibold underline items-center gap-5'>
           <RiPlayListAddLine />
           <h1>To Do List</h1>
